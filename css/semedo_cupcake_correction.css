@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* dégradé de couleurs  */
+	background: repeating-linear-gradient(90deg, #E2C9D7, #E2C9D7 20px, #E9D2DF 0, #E9D2DF 40px);
+}
+
+#container {
+    width: 900px;
+    /* background-color: #fff; */
+    margin: auto;
+}
+
+#cie {
+    text-align: right;
+}
+
+/* pour les images qui auront au max la taille des parents  */
+
+img {
+    max-width: 100%;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+/* header en flex  */
+
+header {
+    display: flex;
+    /* on flex le header et ses enfants  */
+    justify-content: space-between;
+    /* on les espaces un à gauche, un à droite  */
+    align-items: center;
+    /* on centre verticalement  */
+    padding: 5px 10px;
+    background-color: #fff;
+}
+
+/* le logo carré 100px x 100px  */
+
+header div img {
+    width: 100px;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #b934a2;
+    letter-spacing: 0.2em;
+}
+
+.section-1 {
+    background-color: #b934a2;
+    color: #ffffff;
+    padding: 20px 100px;
+    font-size: 1.3em;
+}
+
+.ps {
+    font-size: 0.6em;
+    margin-top: 25px;
+}
+
+.section-2 {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* le style du bouton  */
+
+input {
+    width: 110px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button {
+    background-color: #b934a2;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px;
+    font: bold 13px verdana;
+    color: #fff;
+}
+
+/* pour figure et figcaption  */
+
+figure {
+    display: flex;
+    flex-flow: column;
+    width: 270px;
+}
+
+figcaption {
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 100px;
+    padding: 10px;
+}
+
+/* footer  */
+
+footer section {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+}
+
+table {
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+table tr:nth-of-type(odd) {
+    background-color: #b934a2;
+}
+
+table tr:nth-of-type(even) {
+    background-color: #fff;
+}
+
+td {
+    padding: 5px;
+}
+
+table tr td:nth-of-type(2) {
+    text-align: right;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Les colonnes */
+.col-1 {
+    width: 6.333333%;
+    margin: 1%;
+}
+.col-2 {
+    width: 14.6666%;
+    margin: 1%;
+}
+.col-3 {
+    width: 23%;
+    margin: 1%;
+}
+.col-4 {
+    width: 31.333333%;
+    margin: 1%;
+}
+.col-5 {
+    width: 39.6666666%;
+    margin: 1%;
+}
+.col-6 {
+    width: 48%;
+    margin: 1%;
+}
+.col-7 {
+    width: 56.333333%; 
+    margin: 1%;
+}
+.col-8 {
+    width: 64.666666%;
+    margin: 1%; 
+}
+.col-9 {
+    width: 73%;
+    margin: 1%;  
+}
+.col-10 {
+    width: 81.333333%;
+    margin: 1%;  
+}
+.col-11 {
+    width: 89.666666%;
+    margin: 1%;   
+}
+.col-12 {
+    width: 98%;
+    margin: 1%;   
+}
+/* les marges*/
+.marge-1 {
+    margin-left: 8.333333%;
+}
+.marge-2 {
+    margin-left: 16.666666%;
+}
+
+/* RESPONSIVE  */
+
+@media (max-width: 320px) {
+    .col-xs-12 {
+        width: 100px;
+    }
+
+}
+
+@media (max-width: 321px), (max-width: 767px) {
+
+
+}
+
+@media (max-width: 768px), (max-width: 1096px) {
+
+
+}
+

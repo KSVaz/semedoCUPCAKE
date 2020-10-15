@@ -1,0 +1,245 @@
+/* RESET ERIC MAYER */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Ajout au reset  */
+
+* {
+    box-sizing: border-box;
+}
+
+/* FIN DU RESET ERIC MAYER  */
+
+
+body { /* style de la page */
+	font-family: sans-serif;
+    /* dégradé de couleurs  */
+	background: repeating-linear-gradient(90deg, #E2C9D7, #E2C9D7 20px, #E9D2DF 0, #E9D2DF 40px);		
+}
+
+#conteneur { /* style du contenu principal */
+	width: 900px;
+	margin: 0 auto;
+}
+
+/* style de l'en-tête */
+
+header { 
+	height: auto;
+	background-color: #fff;
+}
+
+.logo a img {
+	width: 150px;
+	height: 150px;
+}
+
+h1 {
+	color: #bd549f;
+	text-transform: uppercase;
+	font-size: 1.6em;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 1.3em;
+}
+
+.adresse {
+	padding: 30px 10px;
+	text-align: right;
+	line-height: 1.2em;
+	font-weight: bold;
+}
+
+/* style du bandeau violet  */
+
+#bandeau-violet {
+	background-color: #b934a2;
+	color: #fff;
+	height: 150px;
+	padding: 20px 70px;
+}
+
+#bandeau-violet p:first-of-type {
+	font-size: 20px;
+}
+
+#bandeau-violet p:last-of-type {
+	font-size: 13px;
+}
+
+/* style de la section freeCupcake */
+
+#freeCupcake {
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 20px 15px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 1.3em;
+	padding-bottom: 20px;
+}
+
+#freeCupcake div div:nth-last-of-type(2) {
+	padding-left: 15px;
+}
+
+.encadre {
+	width: 80%;
+	height: 30px;
+	background-color: #b934a2;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+h3 {
+	font-weight: bold;
+	padding-bottom: 10px ;
+}
+
+/* style de la galerie  */
+
+#galerie {
+	height: auto;
+	padding: 20px;
+}
+
+figure {
+	padding: 10px;
+	display: flex;
+	flex-flow: column;
+}
+
+figcaption {
+	background-color:rgba(255, 255, 255, 0.4);
+	padding: 5px;
+	font-size: 14px;
+}
+
+/* style de la section infos  */
+
+#infos {
+	justify-content: space-between;
+}
+
+.horaires {
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 10px;
+	height: 250px;
+}
+
+.horaires div:nth-of-type(even) {
+	background-color: #fbf7f9;
+}
+
+.horaires div:nth-of-type(odd) {
+	background-color: #c761b4;
+}
+
+.horaires p {
+	padding: 5px;
+}
+
+.droite {
+	text-align: right;
+}
+
+.map {
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 10px;
+}
+
+iframe {
+	max-width: 100%;
+	height: 250px;
+}
+
+/* réglage de la taille des images  */
+
+img {
+    max-width: 100%;
+}
+
+/* déclaration du flex */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* déclaration des colonnes  */
+
+.col-2 {
+    width: 16.666666%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.333333%;
+}
+
+.col-5 {
+    width: 46.666666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.333333%; 
+}
