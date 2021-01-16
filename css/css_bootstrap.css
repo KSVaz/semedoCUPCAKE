@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* dégradé de couleurs  */
+    background: repeating-linear-gradient(90deg, #E2C9D7, #E2C9D7 20px, #E9D2DF 0, #E9D2DF 40px);
+    height: 100vh;
+}
+
+/* style du header  */
+
+h1 {
+    color: #b934a2;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+/* style intro */
+
+#bandeauIntro {
+    background-color: #b934a2;
+}
+
+#postScriptum {
+    font-size: 0.9em;
+}
+
+/* style section cupcake du jour */
+
+#cupcakeOfTheDay {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* couleurs de fond */
+
+figure, table, #plan {
+    background-color: rgba(255, 255, 255, 0.4);
+}
